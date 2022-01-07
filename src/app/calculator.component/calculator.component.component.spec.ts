@@ -1,3 +1,14 @@
+ 
+import { Component} from '@angular/core';
+ 
+@Component({
+  selector: 'ng-calculator',
+  templateUrl: './calculator.component.html',
+})
+export class CalculatorComponent {
+ 
+}
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Calculator.ComponentComponent } from './calculator.component.component';
